@@ -20,7 +20,6 @@ macgyver.query = function (obj) {
                 }
         };
 
-
         setTimeout(function () {
                 r.abort();
                 macgyver.options.timeOutCallback();
